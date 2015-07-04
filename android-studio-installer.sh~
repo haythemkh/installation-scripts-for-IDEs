@@ -4,10 +4,6 @@
 # Setup Android studio
 # --------------------------------------------------
 echo "Downloading and extracting Android Studio bundle..."
-sudo wget http://dl.google.com/android/studio/android-studio-bundle-132.883541-linux.tgz -O android-studio.tgz
-sudo mv android-studio.tgz /usr/bin/
-sudo tar -xvzf /usr/bin/Android-Studio.tgz -C /usr/bin/
-sudo rm /usr/bin/android-studio.tgz
 
 echo "Installing android-studio..."
 # Create the /usr/share/pixmaps/ dir if it doesn't exist
