@@ -24,10 +24,10 @@ mv .WebIde10 ~/.WebIde10
 # --------------------------------------------------
 # Setup idea Upgrade
 # --------------------------------------------------
-echo "Setting up upgradeidea..."
+echo "Setting up upgrade idea..."
 mkdir ~/.local
 cp platforms/linux/upgrade-idea.sh ~/.local/upgrade-idea.sh
-echo 'alias upgradeidea="$HOME/.local/upgrade-idea.sh"' | tee -a ~/.bash_aliases
+echo 'alias upgrade idea="$HOME/.local/upgrade-idea.sh"' | tee -a ~/.bash_aliases
 chmod 755 ~/.local/upgrade-idea.sh
 if [ $?=0 ]
 then echo "idea: installed"

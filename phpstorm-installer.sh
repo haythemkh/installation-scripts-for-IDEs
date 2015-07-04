@@ -23,10 +23,10 @@ mv .WebIde10 ~/.WebIde10
 # --------------------------------------------------
 # Setup phpstorm Upgrade
 # --------------------------------------------------
-echo "Setting up upgradephpstorm..."
+echo "Setting up upgrade phpstorm..."
 mkdir ~/.local
 cp platforms/linux/upgrade-phpstorm.sh ~/.local/upgrade-phpstorm.sh
-echo 'alias upgradephpstorm="$HOME/.local/upgrade-phpstorm.sh"' | tee -a ~/.bash_aliases
+echo 'alias upgrade phpstorm="$HOME/.local/upgrade-phpstorm.sh"' | tee -a ~/.bash_aliases
 chmod 755 ~/.local/upgrade-phpstorm.sh
 if [ $?=0 ]
 then echo "phpstorm: installed"

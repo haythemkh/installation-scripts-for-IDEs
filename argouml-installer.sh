@@ -24,10 +24,10 @@ mv .WebIde10 ~/.WebIde10
 # --------------------------------------------------
 # Setup argoUML Upgrade
 # --------------------------------------------------
-echo "Setting up upgradeargoUML..."
+echo "Setting up upgrade argoUML..."
 mkdir ~/.local
 cp platforms/linux/upgrade-argoUML.sh ~/.local/upgrade-argoUML.sh
-echo 'alias upgradeargoUML="$HOME/.local/upgrade-argoUML.sh"' | tee -a ~/.bash_aliases
+echo 'alias upgrade argoUML="$HOME/.local/upgrade-argoUML.sh"' | tee -a ~/.bash_aliases
 chmod 755 ~/.local/upgrade-argoUML.sh
 if [ $?=0 ]
 then echo "argoUML: installed"

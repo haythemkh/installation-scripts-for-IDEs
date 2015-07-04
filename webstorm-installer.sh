@@ -24,10 +24,10 @@ mv .WebIde10 ~/.WebIde10
 # --------------------------------------------------
 # Setup Webstorm Upgrade
 # --------------------------------------------------
-echo "Setting up upgradewebstorm..."
+echo "Setting up upgrade webstorm..."
 mkdir ~/.local
 cp platforms/linux/upgrade-webstorm.sh ~/.local/upgrade-webstorm.sh
-echo 'alias upgradewebstorm="$HOME/.local/upgrade-webstorm.sh"' | tee -a ~/.bash_aliases
+echo 'alias upgrade webstorm="$HOME/.local/upgrade-webstorm.sh"' | tee -a ~/.bash_aliases
 chmod 755 ~/.local/upgrade-webstorm.sh
 if [ $?=0 ]
 then echo "Webstorm: installed"
