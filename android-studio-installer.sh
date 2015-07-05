@@ -19,14 +19,13 @@ sudo cp /usr/bin/android-studio/bin/idea.png /usr/share/pixmaps/android-studio.p
 # Setup of the .desktop file
 sudo echo "[Desktop Entry]
 Version=1.0
-Encoding=UTF-8
-Name=Android Studio
-Comment=Android Studio
+Type=Application
+Name=Sublime Text
+Comment=Android Studio bundle
 Categories=Development;IDE;
 Exec=/usr/bin/android-studio/bin/studio.sh
 Icon=/usr/share/pixmaps/android-studio.png
-Terminal=false
-Type=Application" >> /usr/share/applications/android-studio.desktop
+Terminal=false" >> /usr/share/applications/android-studio.desktop
 xdg-desktop-menu install /usr/share/applications/android-studio.desktop
 
 echo "Android Studio bundle has been installed"
