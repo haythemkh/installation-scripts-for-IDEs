@@ -1,9 +1,9 @@
 #!/bin/sh
 # sudo sh -c "echo $data >>$logfile"
 # --------------------------------------------------
-# Setup Spring Tool Suite
+# Setup PhpStorm
 # --------------------------------------------------
-echo "Installing phpstorm..."
+echo "Installing PhpStorm..."
 # Create the /usr/share/pixmaps/ dir if it doesn't exist
 if [ ! -d /usr/share/pixmaps/ ]; then
        sudo mkdir /usr/share/pixmaps/
@@ -22,4 +22,4 @@ Icon=/usr/share/pixmaps/phpstorm.png
 Terminal=false" >> /usr/share/applications/phpstorm.desktop
 xdg-desktop-menu install /usr/share/applications/phpstorm.desktop
 
-echo "phpstorm has been installed"
+echo "PhpStorm has been installed"
