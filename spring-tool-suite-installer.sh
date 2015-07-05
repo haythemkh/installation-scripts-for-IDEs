@@ -17,9 +17,9 @@ Type=Application
 Name=Spring Tool Suite
 Comment=IDE for JavaEE/Spring development
 Categories=Development;
-Exec=/usr/bin/argoUML/bin/spring-tool-suite.sh
-Icon=/usr/share/pixmaps/argoUML.png
+Exec=/usr/bin/spring-tool-suite/bin/spring-tool-suite.sh
+Icon=/usr/share/pixmaps/spring-tool-suite.png
 Terminal=false" >> /usr/share/applications/spring-tool-suite.desktop
 xdg-desktop-menu install /usr/share/applications/spring-tool-suite.desktop
 
-echo "spring-tool-suite has been installed"
+echo "Spring Tool Suite has been installed"
