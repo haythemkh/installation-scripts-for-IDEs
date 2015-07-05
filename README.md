@@ -9,7 +9,8 @@ With those bash scripts you can install and create menu entry on Linux (specific
 * PhpStorm
 * WebStorm
 * Sprim Tool Suite
-By typing:
+
+To install one of these IDE, you may need to type:
 
 ```bash
 $ sudo ./nameOfTheInstallerScript.sh
