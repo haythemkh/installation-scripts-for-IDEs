@@ -20,7 +20,7 @@ sudo cp /usr/bin/android-studio/bin/idea.png /usr/share/pixmaps/android-studio.p
 sudo echo "[Desktop Entry]
 Version=1.0
 Type=Application
-Name=Sublime Text
+Name=Android Studio
 Comment=Android Studio bundle
 Categories=Development;IDE;
 Exec=/usr/bin/android-studio/bin/studio.sh
