@@ -1,7 +1,7 @@
 #!/bin/sh
 # sudo sh -c "echo $data >>$logfile"
 # --------------------------------------------------
-# Setup spring-tool-suite 2
+# Setup Spring Tool Suite
 # --------------------------------------------------
 echo "Installing spring-tool-suite..."
 # Create the /usr/share/pixmaps/ dir if it doesn't exist
