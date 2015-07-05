@@ -11,13 +11,13 @@ With those bash scripts you can install and create menu entry on Linux (specific
 * Sprim Tool Suite
 By typing:
 
-````bash
-$ sudo ./nameOfTheInstallerScript
+````shell
+$ sudo ./nameOfTheInstallerScript.sh
 ````
 
 
 Also, you can uninstall any app you want by typing:
 
-````bash
-$ sudo ./uninstall nameOfTheAppToUninstall
+````shell
+$ sudo ./uninstall.sh nameOfTheAppToUninstall
 ````
