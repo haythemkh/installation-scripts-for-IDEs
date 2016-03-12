@@ -8,7 +8,7 @@ With those bash scripts you can install and create menu entry on Linux (specific
 * Intellij Idea
 * PhpStorm
 * WebStorm
-* Sprim Tool Suite
+* Spring Tool Suite
 
 To install one of these IDE, you may need to type:
 
