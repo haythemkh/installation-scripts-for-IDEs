@@ -14,7 +14,7 @@ echo "Installing android-studio..."
 if [ ! -d /usr/share/pixmaps/ ]; then
        sudo mkdir /usr/share/pixmaps/
 fi
-sudo cp /usr/bin/android-studio/bin/idea.png /usr/share/pixmaps/android-studio.png
+sudo cp /usr/bin/android-studio/bin/studio.png /usr/share/pixmaps/android-studio.png
 
 # Setup of the .desktop file
 sudo echo "[Desktop Entry]
@@ -23,7 +23,7 @@ Type=Application
 Name=Android Studio
 Comment=Android Studio bundle
 Categories=Development;IDE;
-Exec=/usr/bin/android-studio/bin/studio.sh
+Exec=/usr/bin/android-studio/bin/android-studio.sh
 Icon=/usr/share/pixmaps/android-studio.png
 Terminal=false" >> /usr/share/applications/android-studio.desktop
 xdg-desktop-menu install /usr/share/applications/android-studio.desktop
